@@ -9,5 +9,7 @@
     echo "<br>"."<br>";
 
     $b=json_decode($a);
+    echo $b;
+    //da erro pq objetos dessa classe nao podem ser convertidos em strings
     
     
