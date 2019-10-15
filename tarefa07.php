@@ -4,5 +4,7 @@
         echo $nome."=>".$dado." ";
     }
     echo "<br>"."<br>";
+    $a=json_encode($a);
+    echo "<br>"."<br>";
     
     
