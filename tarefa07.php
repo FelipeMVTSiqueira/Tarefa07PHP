@@ -7,5 +7,7 @@
     $a=json_encode($a);
     echo $a;
     echo "<br>"."<br>";
+
+    $b=json_decode($a);
     
     
