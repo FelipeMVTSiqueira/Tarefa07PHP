@@ -5,6 +5,7 @@
     }
     echo "<br>"."<br>";
     $a=json_encode($a);
+    echo $a;
     echo "<br>"."<br>";
     
     
