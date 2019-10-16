@@ -17,4 +17,14 @@
 
     echo "<br<"."<br>";
     
+//     file_put_contents(,{“categorias” : [
+//         {“id”: 1, “nome”: “Esportes”},
+//         {“id”: 2, “nome”: “História”},
+//         {“id”: 3, “nome”: “Entretenimento”},
+//         {“id”: 4, “nome”: “Geografia”},
+//         {“id”: 5, “nome”: “Arte”}
+//         ]
+//     }
+// );
+    
     
