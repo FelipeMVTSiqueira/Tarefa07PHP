@@ -16,5 +16,10 @@
     // $conteudo = fread($arquivo, $tamanho);
 ?> -->
 <?php
-    $arquivo = file_get_contents("texto.txt");
-    echo $arquivo;
+    $arquivo = fopen("texto.txt","r");
+    if ($arquivo){
+        while (($linha = fgets($arquivo))) {
+            echo $linha;
+        }
+    }
+    fclose($arquivo);
